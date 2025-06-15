@@ -1,7 +1,7 @@
 #--------------------------------------------------------------
 #Created by Daniel Harkins on 2/18/2025
 #This code generates XML from flat files
-#Modify the number in row 45 to change the number of outputs
+#Modify the number in row 44 to change the number of outputs
 #--------------------------------------------------------------
 
 import xml.etree.ElementTree as ET
