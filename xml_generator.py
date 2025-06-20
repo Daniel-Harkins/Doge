@@ -17,7 +17,7 @@ def generate_random_person():
     """Generate a random person's data using Faker."""
     first_name = fake.first_name()
     last_name = fake.last_name()
-    age = random.randint(18, 110)  # Random age between 18 and 65
+    age = random.randint(18, 110)  # Random age between 18 and 110
     city = fake.city()
     return f"{first_name},{last_name},{age},{city}"
 
